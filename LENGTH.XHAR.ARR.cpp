@@ -3,7 +3,7 @@ using namespace std;
 void reverse(char NAME[],int n)
 {
     int s=0;
-    int e=n-1;
+    int e=n-1; // for vectors e=s.size()-1
     while(e>s)
     {
         swap(NAME[s++],NAME[e--]);
